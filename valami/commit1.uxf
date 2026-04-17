@@ -50,7 +50,7 @@ constructor(questions? : QuestionType[])
 + get answers(): string[]
 + set answers(value: string[])
 + get rightAnswer(): string
-+ set rightAnswer(value: string)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>595</x><y>567</y><w>98</w><h>126</h></coordinates><panel_attributes>QuestionType
++ set rightAnswer(value: string) </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>595</x><y>567</y><w>98</w><h>126</h></coordinates><panel_attributes>QuestionType
 --
 + question: string
 + answer1: string
