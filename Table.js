@@ -9,7 +9,7 @@ class Table{
      * 
      * @param {string} id 
      * @param {QuestionManager} manager 
-     * @param {string} headerString 
+     * @param {string[]} headerString 
      */
     constructor(id, manager, headerString){
         this.#manager = manager;

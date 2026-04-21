@@ -38,7 +38,9 @@ class ViewElement{
         parent.appendChild(this.#div);
     }
     navigate(){
-
+        if (this.#activateCallback){
+            this.#activateCallback();
+        }
     }
     get id(){
         return this.#id;
